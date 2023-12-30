@@ -1,0 +1,29 @@
+export const ENV = {
+  DEV: 'DEV',
+};
+
+export const PORT = process.env.PORT || 3000;
+
+export const HTTP_CODE = {
+  OK: 200,
+  PENDING: 201,
+  ACCEPTED: 202,
+  REDIRECT_PERMANENT: 301,
+  REDIRECT_TEMP: 302,
+  BAD_REQUEST: 400,
+  NO_AUTH: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  CONFLICT: 409,
+  UNPROCESSABLE_ENTITY: 422,
+  TOO_MANY_REQUESTS: 429,
+  SERVER_ERROR: 500,
+  SERVICE_DOWN: 503,
+};
+
+export const BIZ_ERROR = 'BizError';
+export const APP_ISE = 'APPISE';
+export const DB_DUPLICATE_ERROR = 'ER_DUP_ENTRY';
+export const ERR_MSG_CODE = {
+  DB_DUPLICATE_ENTRY: 9973,
+};
